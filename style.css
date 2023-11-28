@@ -1,0 +1,313 @@
+html {
+	scroll-behavior: smooth;
+    position: absolute;
+}
+
+body{
+    margin: 0%;
+}
+
+p{
+    margin: 0%;
+    line-height: 2rem;
+}
+
+li{
+    margin-right: 60px;
+    list-style: none;
+    font-family: "Almendra SC";
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.header-tab ul li a{
+    transition: all 0.2s ease-in-out;
+}
+
+.top:hover{
+    color: lightgray;
+}
+
+.about:hover{
+    color: lightgray;
+}
+
+.portfolio:hover{
+    color: lightgray;
+}
+
+.contact:hover{
+    color: lightgray;
+}
+
+.header{
+    background-color: #707070;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.header-img{
+    margin-left: 80px;
+    margin-top: 12px;
+}
+
+.header-tab{
+    display: flex;
+}
+
+.title{
+    background-color: #C69292;
+    max-width: 100%;
+    height: calc(100vh - 80px);
+}
+
+.MWF-title{
+    font-family: "Almendra Display";
+    font-size: 70px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.MWF-img{
+    text-align: center;
+}
+
+.about-me-box{
+    background-color: #E9E9E9;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.about-me{
+    max-width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    padding: 150px;
+}
+
+.about-me-title{
+    font-family: "Almendra SC";
+    font-size: 70px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.about-me-main{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me-text{
+    padding-left: 10px;
+}
+
+.works-box{
+    background-color: #D9D9D9;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.works{
+    max-width: 100%;
+    height: 100%;
+}
+
+.works-text{
+    font-family: "Almendra SC";
+    font-size: 70px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.works-list{
+    display: flex;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.works-list-tile-naracoffe{
+    color: #FFF;
+    font-family: "Almendra SC";
+    font-size: 40px;
+    text-align: center;
+}
+
+.works-list-tile-rin{
+    font-family: 'Merriweather', serif;
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
+}
+
+.works-list-tile-mwf{
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Almendra Display";
+}
+
+.works-list-tile-other{
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
+    line-height: 2rem;
+    font-family: 'Merriweather', serif;
+}
+
+.works-list-p{
+    color: #fff;
+    line-height: 2rem;
+    text-align: center;
+    padding-top: 50px
+}
+
+.figma-img{
+    text-decoration: underline;
+}
+
+.narascoffe{
+    width: 30%;
+    height: 500px;
+    background-color: gray;
+    margin-left: 20px;
+}
+
+.naracoffee-img{
+    border: 20px solid #C69292;
+    margin-left: 45px;
+}
+
+.rin{
+    width: 30%;
+    height: 500px;
+    background-color: gray;
+    margin-left: 53px;
+}
+
+.rin-img{
+    border: 20px solid #C69292;
+    margin-left: 45px;
+}
+
+.myworldfactory{
+    width: 30%;
+    height: 500px;
+    background-color: gray;
+    margin-left: 53px;
+}
+
+.myworldfactory-img{
+    border: 20px solid #C69292;
+    margin-left: 45px;
+}
+
+.crazyfactory{
+    width: 30%;
+    height: 500px;
+    background-color: gray;
+    margin-left: 20px;
+}
+
+.crazyfactory-img{
+    border: 20px solid #C69292;
+    margin-left: 45px;
+}
+
+.grs{
+    width: 30%;
+    height: 500px;
+    background-color: gray;
+    margin-left: 53px;
+}
+
+.grs-img{
+    border: 20px solid #C69292;
+    margin-left: 45px;
+}
+
+.skill{
+    background-color: #E9E9E9;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.skill-text{
+    font-family: "Almendra SC";
+    font-size: 70px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contact-box{
+    background-color: #D9D9D9;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.contact-title{
+    max-width: 100%;
+    height: 50%;
+    background-color: #C69292;
+}
+
+.contact-title-p{
+    font-family: "Almendra Display";
+    font-size: 70px;
+    text-align: center;
+    padding-top: 160px;
+}
+
+.contact-text{
+    font-family: "Almendra SC";
+    font-size: 70px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.page-top{
+    display: block;
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    background: #FFF;
+    border: 1px solid #999;
+    padding-top: 30px;
+    text-align: center;
+    letter-spacing: -1px;
+    font-size: 85%;
+    text-decoration: none;
+    color: #333;
+    opacity: 0.5;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10000;
+}
+
+.page-top::before{
+    content: "";
+    display: block;
+    border-top: 2px solid #333;
+    border-right: 2px solid #333;
+    width: 25%;
+    height: 25%;
+    top: 25%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    transform: rotate(-45deg);
+}
+
+.page-top:hover{
+    opacity: 1;
+}
