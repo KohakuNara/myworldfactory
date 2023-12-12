@@ -107,6 +107,7 @@ a{
 .MWF-img{
     text-align: center;
     padding-bottom: 45px;
+    position: relative;
     z-index: 2;
 }
 
