@@ -4,6 +4,7 @@ html {
 
 body{
     margin: 0%;
+    display: block;
 }
 
 p{
@@ -12,7 +13,9 @@ p{
 }
 
 li{
-    margin-right: 60px;
+    /* margin-right: 60px; */
+    padding-left: 30px;
+    padding-right: 30px;
     list-style: none;
     font-family: "Almendra SC";
 }
@@ -50,6 +53,9 @@ a{
     align-items: center;
     height: 80px;
     width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    position: fixed;
+    z-index: 10;
 }
 
 .header-img{
@@ -57,48 +63,21 @@ a{
     margin-top: 12px;
 }
 
-/* .header-tab{ */
-    /* display: flex; */
-/* } */
-
-#header-tab {
-    position: relative;
-    height: 46px;
-    width: 46px;
-    display: inline-block;
-    box-sizing: border-box;
-    background-color: #fff;
-    border: 2px solid #444;
-    border-radius: 4px;
-}
-
-#header-tab div {
-    position: absolute;
-    left: 7px;
-    height: 2px;
-    width: 28px;
-    background-color: #444;
-    border-radius: 2px;
-    display: inline-block;
-    box-sizing: border-box;
-}
-
-#header-tab div:nth-of-type(1) {
-    bottom: 30px;
-}
-
-#header-tab div:nth-of-type(2) {
-    bottom: 20px;
-}
-
-#header-tab div:nth-of-type(3) {
-    bottom: 10px;
+.header-tab{
+    display: flex;
 }
 
 .title{
-    background-color: #fff;
+    background-color: #C69292;
     max-width: 100%;
     height: calc(100vh - 80px);
+    position: relative;
+    overflow: hidden;
+}
+
+.title-empty{
+    width: 100%;
+    height: 80px;
 }
 
 .MWF-title{
@@ -106,10 +85,14 @@ a{
     font-size: 70px;
     text-align: center;
     padding-top: 80px;
+    position: relative;
+    z-index: 2;
 }
 
 .MWF-img{
     text-align: center;
+    position: relative;
+    z-index: 2;
 }
 
 .MWF-img-in{
@@ -119,7 +102,7 @@ a{
 .about-me-box{
     background-color: #E9E9E9;
     max-width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 .about-me{
@@ -127,11 +110,13 @@ a{
     height: 100%;
     display: block;
     text-align: center;
-    padding: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .about-me-title{
     font-family: "Almendra SC";
+    line-height: 10rem;
     font-size: 70px;
     text-align: center;
     padding-top: 50px;
@@ -140,18 +125,27 @@ a{
 .about-me-main{
     padding-top: 50px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
+.about-me-img{
+    width: 160px;
+    height: 160px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 8px gray;
+}
+
 .about-me-text{
     padding-left: 10px;
+    width: 80%;
 }
 
 .works-box{
     background-color: #D9D9D9;
     max-width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 .works{
@@ -168,8 +162,12 @@ a{
 
 .works-list{
     display: flex;
-    width: 100%;
+    width: 1400px;
+    margin: 0 auto;
     padding-top: 50px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .works-list-tile-naracoffe{
@@ -213,12 +211,13 @@ a{
 }
 
 .narascoffe{
-    width: 30%;
+    width: 440px;
     height: 500px;
     background-color: gray;
-    margin-left: 20px;
+    margin-bottom: 50px;
     border-radius: 0.75em;
     box-shadow: 0 0 8px gray;
+    border-bottom: #92C6BA 10px solid;
 }
 
 .naracoffee-img{
@@ -231,12 +230,14 @@ a{
 }
 
 .rin{
-    width: 30%;
+    width: 440px;
     height: 500px;
     background-color: gray;
     margin-left: 53px;
+    margin-bottom: 50px;
     border-radius: 0.75em;
     box-shadow: 0 0 8px gray;
+    border-bottom: #92C6BA 10px solid;
 }
 
 .rin-img{
@@ -249,12 +250,14 @@ a{
 }
 
 .myworldfactory{
-    width: 30%;
+    width: 440px;
     height: 500px;
     background-color: gray;
     margin-left: 53px;
+    margin-bottom: 50px;
     border-radius: 0.75em;
     box-shadow: 0 0 8px gray;
+    border-bottom: #92C6BA 10px solid;
 }
 
 .myworldfactory-img{
@@ -267,12 +270,14 @@ a{
 }
 
 .crazyfactory{
-    width: 30%;
+    width: 440px;
     height: 500px;
     background-color: gray;
     margin-left: 20px;
+    margin-bottom: 50px;
     border-radius: 0.75em;
     box-shadow: 0 0 8px gray;
+    border-bottom: #92C6BA 10px solid;
 }
 
 .crazyfactory-img{
@@ -285,12 +290,14 @@ a{
 }
 
 .grs{
-    width: 30%;
+    width: 440px;
     height: 500px;
     background-color: gray;
     margin-left: 53px;
+    margin-bottom: 50px;
     border-radius: 0.75em;
     box-shadow: 0 0 8px gray;
+    border-bottom: #92C6BA 10px solid;
 }
 
 .grs-img{
@@ -300,6 +307,33 @@ a{
 
 .grs-img:hover{
     opacity: 0.7;
+}
+
+.milkypop{
+    width: 440px;
+    height: 500px;
+    background-color: gray;
+    margin-left: 53px;
+    margin-bottom: 50px;
+    border-radius: 0.75em;
+    box-shadow: 0 0 8px gray;
+    border-bottom: #92C6BA 10px solid;
+}
+
+.milkypop-img{
+    border: 20px solid #C69292;
+    margin-left: 45px;
+}
+
+.milkypop-img:hover{
+    opacity: 0.7;
+}
+
+.works-list-tile-milkypop{
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Kaisei Tokumin', serif;
 }
 
 .skill{
@@ -440,4 +474,92 @@ a{
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+.copylight-box{
+    width: 100%;
+    height: 60px;
+    background-color: #92C6BA;
+    /* background-color: #0D0015; */
+    /* border-top: #B68D4C solid; */
+}
+
+.copylight-p{
+    padding-top: 20px;
+    padding-left: 50px;
+    color: #fff;
+    margin: 0%;
+}
+
+.item {
+	position: absolute;
+	top: 800px;
+	left: 500px;
+	animation: come-down-anim 5s linear infinite;
+	z-index: 1;
+}
+
+.item2 {
+	position: absolute;
+	top: 1000px;
+	left: 50px;
+	animation: come-down-anim 6s linear infinite;
+	z-index: 1;
+}
+
+.item3 {
+	position: absolute;
+	top: 800px;
+	left: 900px;
+	animation: come-down-anim 6.5s linear infinite;
+	z-index: 1;
+}
+
+.item4 {
+	position: absolute;
+	top: 900px;
+	left: 1300px;
+	animation: come-down-anim 5.5s linear infinite;
+	z-index: 1;
+}
+
+@keyframes come-down-anim {
+	0% {
+	transform: translateY(100%);
+	}
+	100% {
+	transform: translateY(-1100px);
+	}
+}
+
+.heart {
+	width: 50px;
+	height: 50px;
+	position: relative;
+}
+
+.heart::before {
+	content: "";
+	position: absolute;
+	left: 60px; /* x位置 */
+	top: 0; /* y位置 */
+	width: 60px; /* 幅 */
+	height: 100px; /* 高さ */
+	background: #92C6BA; /* 色 */
+	border-radius: 100px 60px 0 0; /* 丸み */
+	transform: rotate(-45deg); /* 角度調整 */
+	transform-origin: 0 100%; /* 回転の基準点 */
+}
+
+.heart::after {
+	content: "";
+	position: absolute;
+	left: 0; /* x位置 */
+	top: 0; /* y位置 */
+	width: 60px; /* 幅 */
+	height: 100px; /* 高さ */
+	background: #92C6BA; /* 色 */
+	border-radius: 60px 100px 0 0; /* 丸み */
+	transform: rotate(45deg); /* 角度調整 */
+	transform-origin: 100% 100%; /* 回転の基準点 */
 }
