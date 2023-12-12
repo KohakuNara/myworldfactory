@@ -70,7 +70,7 @@ a{
 .title{
     background-color: #C69292;
     max-width: 100%;
-    height: calc(100vh - 80px);
+    height: calc(100% - 80px);
     position: relative;
     overflow: hidden;
 }
@@ -91,7 +91,7 @@ a{
 
 .MWF-img{
     text-align: center;
-    position: relative;
+    padding-bottom: 45px;
     z-index: 2;
 }
 
