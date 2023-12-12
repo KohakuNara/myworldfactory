@@ -105,14 +105,12 @@ a{
 }
 
 .MWF-img{
-    text-align: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 45px;
     position: relative;
     z-index: 2;
-}
-
-.MWF-img-in{
-    width: 500px;
 }
 
 .about-me-box{
