@@ -267,6 +267,7 @@ a{
     font-family: "Almendra SC";
     font-size: 40px;
     text-align: center;
+    padding-top: 10px;
 }
 
 .works-list-tile-rin{
@@ -274,6 +275,7 @@ a{
     color: #FFF;
     font-size: 40px;
     text-align: center;
+    padding-top: 10px;
 }
 
 .works-list-tile-mwf{
@@ -281,6 +283,7 @@ a{
     font-size: 40px;
     text-align: center;
     font-family: "Almendra Display";
+    padding-top: 10px;
 }
 
 .works-list-tile-other{
@@ -289,6 +292,15 @@ a{
     text-align: center;
     line-height: 2rem;
     font-family: 'Merriweather', serif;
+    padding-top: 10px;
+}
+
+.works-list-tile-milkypop{
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Kaisei Tokumin', serif;
+    padding-top: 10px;
 }
 
 .works-list-p{
@@ -315,8 +327,10 @@ a{
 }
 
 .naracoffee-img{
+    width: 70%;
     border: 20px solid #C69292;
-    margin-left: 45px;
+    display: block;
+    margin: 0 auto;
 }
 
 .naracoffee-img:hover{
@@ -336,8 +350,10 @@ a{
 }
 
 .rin-img{
+    width: 70%;
     border: 20px solid #C69292;
-    margin-left: 45px;
+    display: block;
+    margin: 0 auto;
 }
 
 .rin-img:hover{
@@ -357,8 +373,10 @@ a{
 }
 
 .myworldfactory-img{
+    width: 70%;
     border: 20px solid #C69292;
-    margin-left: 45px;
+    display: block;
+    margin: 0 auto;
 }
 
 .myworldfactory-img:hover{
@@ -378,8 +396,10 @@ a{
 }
 
 .crazyfactory-img{
+    width: 70%;
     border: 20px solid #C69292;
-    margin-left: 45px;
+    display: block;
+    margin: 0 auto;
 }
 
 .crazyfactory-img:hover{
@@ -399,8 +419,10 @@ a{
 }
 
 .grs-img{
+    width: 70%;
     border: 20px solid #C69292;
-    margin-left: 45px;
+    display: block;
+    margin: 0 auto;
 }
 
 .grs-img:hover{
@@ -420,8 +442,10 @@ a{
 }
 
 .milkypop-img{
+    width: 70%;
     border: 20px solid #C69292;
-    margin-left: 45px;
+    display: block;
+    margin: 0 auto;
 }
 
 .milkypop-img:hover{
@@ -438,7 +462,7 @@ a{
 .skill{
     background-color: #E9E9E9;
     max-width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 .skill-text{
@@ -446,6 +470,68 @@ a{
     font-size: 70px;
     text-align: center;
     padding-top: 50px;
+}
+
+.skill-list{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.html-skill{
+    width: 440px;
+    height: 500px;
+    background-color: gray;
+    /* margin-left: 20px; */
+    margin-bottom: 50px;
+    border-radius: 0.75em;
+    box-shadow: 0 0 8px gray;
+    border-bottom: #92C6BA 10px solid;
+}
+
+.html-img{
+    width: 50%;
+    border: 20px solid #C69292;
+    display: block;
+    margin: 0 auto;
+}
+
+.css-skill{
+    width: 440px;
+    height: 500px;
+    background-color: gray;
+    /* margin-left: 20px; */
+    margin-bottom: 50px;
+    border-radius: 0.75em;
+    box-shadow: 0 0 8px gray;
+    border-bottom: #92C6BA 10px solid;
+}
+
+.css-img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.js-skill{
+    width: 440px;
+    height: 500px;
+    background-color: gray;
+    /* margin-left: 20px; */
+    margin-bottom: 50px;
+    border-radius: 0.75em;
+    box-shadow: 0 0 8px gray;
+    border-bottom: #92C6BA 10px solid;
+}
+
+.js-img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
 }
 
 .contact-box{
