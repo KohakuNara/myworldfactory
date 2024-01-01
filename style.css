@@ -398,6 +398,7 @@ a{
     border-radius: 0.75em;
     box-shadow: 0 0 8px gray;
     border-bottom: #92C6BA 10px solid;
+    margin: 0 auto;
 }
 
 .html-img{
@@ -415,6 +416,7 @@ a{
     border-radius: 0.75em;
     box-shadow: 0 0 8px gray;
     border-bottom: #92C6BA 10px solid;
+    margin: 0 auto;
 }
 
 .css-img{
@@ -432,6 +434,7 @@ a{
     border-radius: 0.75em;
     box-shadow: 0 0 8px gray;
     border-bottom: #92C6BA 10px solid;
+    margin: 0 auto;
 }
 
 .js-img{
@@ -457,6 +460,90 @@ a{
 }
 
 .skill-list-tile-js{
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 10px;
+}
+
+.c-skill{
+    width: 440px;
+    height: 500px;
+    background-color: gray;
+    /* margin-left: 20px; */
+    margin-bottom: 50px;
+    border-radius: 0.75em;
+    box-shadow: 0 0 8px gray;
+    border-bottom: #92C6BA 10px solid;
+    margin: 0 auto;
+}
+
+.c-img{
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+}
+
+.unity-skill{
+    width: 440px;
+    height: 500px;
+    background-color: gray;
+    /* margin-left: 20px; */
+    margin-bottom: 50px;
+    border-radius: 0.75em;
+    box-shadow: 0 0 8px gray;
+    border-bottom: #92C6BA 10px solid;
+    margin: 0 auto;
+}
+
+.unity-img{
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.gb-skill{
+    width: 440px;
+    height: 500px;
+    background-color: gray;
+    /* margin-left: 20px; */
+    margin-bottom: 50px;
+    border-radius: 0.75em;
+    box-shadow: 0 0 8px gray;
+    border-bottom: #92C6BA 10px solid;
+    margin: 0 auto;
+}
+
+.gb-img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.gb-audio{
+    width: 300px;
+    height: 48px;
+}
+
+.skill-list-tile-c{
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 10px;
+}
+
+.skill-list-tile-unity{
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 10px;
+}
+
+.skill-list-tile-gb{
     color: #FFF;
     font-size: 40px;
     text-align: center;
